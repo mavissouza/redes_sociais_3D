@@ -47,11 +47,11 @@ nav a:hover {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
-    border: var(--cor-segundaria) solid 2px;
+    border: var(--cor-texto) solid 2px;
 }
 span { 
     font-weight: bold;
-    color: var(--cor-segundaria);
+    color: var(--cor-texto);
 }
 footer{
     display: flex;
