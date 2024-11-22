@@ -30,6 +30,15 @@ async function quantidadeUsuariosPorRede() {
         xaxis: {
             tickfont: tickConfig,
             title: {
+                text: 'Nome das redes',
+                font: {
+                    color: getCSS('--secondary-color')
+                }
+            }
+        },
+        yaxis: {
+            tickfont: tickConfig,
+            title: {
                 text: 'Bilhões de usuários ativos',
                 font: {
                     color: getCSS('--secondary-color')
